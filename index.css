@@ -12,18 +12,16 @@ html, body{
     height: 100%;
 }
 header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   
     background-color: aquamarine;
 }
 main{
     flex: 1;
     background-color: bisque;
-      display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 footer{
     background-color: rgb(209, 134, 134);
@@ -31,3 +29,53 @@ footer{
     text-align: center;
     font-size: 2rem;
 }
+table, tr, td, th{
+    border: 1px solid black;
+    
+
+}
+
+th{
+    background-color: rgb(206, 166, 243);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #bbdefb;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #0d47a1;
+    font-weight: 700;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #0d47a1;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .menu a:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  
+ table{
+    width: 50%;
+    height: 15%;
+ }
+  
