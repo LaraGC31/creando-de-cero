@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body{
+
+    display: flex;
+    flex-direction: column;
+}
+html, body{
+    height: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+main{
+    flex: 1;
+    background-color: bisque;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+footer{
+    background-color: rgb(209, 134, 134);
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+}
